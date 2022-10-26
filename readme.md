@@ -6,7 +6,5 @@ Please refer to for more examples https://www.w3schools.com/php/php_oop_what_is.
    1. Properties
    2.  Methods
 2. Constructor
-3. Destructor
-4. Access modifiers
-5. Inheritance
-6. Interfaces 
+3. Inheritance
+4. Interfaces 
