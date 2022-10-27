@@ -16,6 +16,10 @@ class Person {
         $this->firstname = $name;
     }
 
+    function get_lastname(): string {
+        return $this->lastname;
+    }
+
     function set_lastname(string $name): void {
         $this->lastname = $name;
     }
