@@ -21,3 +21,11 @@ class Person {
     }
 
 }
+
+$haibo = new Person(); 
+$haibo->set_firstname("Haibo");
+$haibo->set_lastname("Yang");
+
+$helene = new Person(); 
+$helene->set_firstname("Helene");
+$helene->set_lastname("Denayer");
