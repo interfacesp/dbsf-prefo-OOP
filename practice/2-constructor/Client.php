@@ -8,9 +8,12 @@
  * - adresse
  * - telephone 
  * 
- *  Utiliser constructeur pour nom et prénom 
+ *  Utiliser constructeur pour nom et prénom   
+ *  Ecrivez des méthodes pour ajouter l'adresse et le téléphone
  * 
- *  Ecrivez methode pour ajouter l'adresse 
+ * ou 
+ * Initialiser toutes les propriétés avec un constructeur 
+ * 
  * 
  * Ecrivez une méthode pour lire chacune des propriétés 
  *  
