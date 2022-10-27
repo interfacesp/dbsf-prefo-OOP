@@ -13,10 +13,20 @@
 
  class Book {
     public  string $nom;
-    
+    public int $nbPages; 
+    public string $author;  
+
 
     function set_name(string $nouveau) :void{
         $this->nom = $nouveau;
+    }
+
+    function set_author(string $author):void {
+        $this->author= $author;
+    }
+
+    function set_nbPages(int $nbPages ): void {
+        $this->nbPages = $nbPages;
     }
 
     function get_name(): string{
@@ -24,6 +34,17 @@
     }
     
  }
+
+ 
+ class Book2 {
+    public  string $nom;
+    public int $nbPages; 
+    public Person $author; 
+ }
+
+ $aBook2  = new Book2();
+
+
 
 $harryPotter = new Book(); 
 $harryPotter->set_name("Voldemore");
@@ -43,3 +64,13 @@ echo $titre, $titre,$titre;
 print "<p>Print</p>";
 print $titre;
 
+
+
+$book = new Book();
+$book->set_name("Harry Potter");
+$book->set_nbPages(360);
+$book->set_author("Hermione");
+
+echo $book->nom, 
+    $book->nbPages,
+    $book->author;
