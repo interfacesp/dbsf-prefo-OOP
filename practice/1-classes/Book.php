@@ -7,6 +7,6 @@
  * - nbPages 
  * - author (Person)
  * 
- * Ecrivez une méthode pour chacune des propriétes 
+ * Ecrivez une méthode pour assigner des valeurs à chaucune des propriétes 
  * 
  */

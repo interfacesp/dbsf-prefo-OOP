@@ -14,6 +14,8 @@
 
      $chocolat = new Pancake(); 
      $chocolat->set_name("Chocolat");
+     echo "<br>";
+     echo "Nom de la Crêpe: $chocolat->name";
      
 
 
