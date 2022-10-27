@@ -18,7 +18,6 @@ class Ingredient {
     {
         $this->nom = $newNom;
         $this->quantity= $quant;
-        echo "Coucou";
     }
 }
 
